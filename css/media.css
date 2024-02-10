@@ -1,0 +1,156 @@
+@media (max-width:1200px){
+	.header_links{
+		display: none;
+	}
+	.nav_menu{
+		display: none;}
+		
+	.mobile_menu_header{
+    display: flex;
+	}
+	.mobile_logo{
+    display: block;
+}
+    .addres{
+    height: 150px;
+
+	}
+	.call_feedback_form{
+		flex-direction: column;
+	}
+	.dashed_line{
+	height: 1px;
+
+    width: 100%;
+    border: dashed 1px #31BEF5;
+        margin-left: 0px;
+}
+
+}
+
+@media (max-width:768px){
+	.big_title span {
+		font-size: 28px;
+	}
+	.big_title span:last-child{
+		font-size: 28px;
+	}
+	.addres{
+		font-size: 20px;
+	}
+	.price{
+		font-size: 24px;
+	}
+	.check_price{
+		width: 290px;
+	}
+	.about_comlex{
+    	display: block;
+	}
+	.Architecture{
+		width: 224px;
+		margin: 100px auto 60px;
+		font-size: 28px;
+		line-height: 33px;
+	}
+	.nav_in_ymap .advant_slide:nth-child(-n + 2){
+		display: none;
+
+	}
+	.nav_in_ymap{
+		right: auto;
+	}
+	.mySwiper_3{
+		width: auto;
+	}
+	.mySwiper_3 .swiper-pagination{
+	    display: flex;
+	    flex-direction: column;
+	    align-items: center;
+	}
+	.mySwiper_3 .swiper-pagination-clickable .swiper-pagination-bullet {
+		margin-bottom: 10px;
+		width: 290px;
+    	height: 71px ;
+ 	}
+ .mySwiper_3 .swiper-pagination-clickable .swiper-pagination-bullet:before {
+    content: "Надписть";
+    width:270px;
+    height: 51px;
+	}
+	.mySwiper_3 .swiper-slide {
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+	}
+	.other_min_img_in_slide {
+	    height: fit-content;
+	    flex-direction: row;
+	    padding: 10px;
+	}
+	.other_min_img_in_slide .min_img_in_slide:nth-child(1){
+		display: none;
+	}
+	.min_img_in_slide{
+		margin: 10px;
+
+	}
+	.text_in_info_slide{
+		min-width: 290px;
+		width: auto;
+		height: fit-content;
+		margin: 300px auto 20px;
+	}
+	.text_in_info_slide p{
+		font-family: Gilroy;
+		font-size: 16px;
+		font-weight: 400;
+		line-height: 19px;
+		letter-spacing: 0em;
+		text-align: left;
+	}
+	.info_slide{
+		width: 100%;
+    	height: fit-content;
+    	padding: 0px 10px;
+	}
+	.feedback_form_footer p{
+		font-family: Gilroy;
+		font-size: 28px;
+		font-weight: 700;
+		line-height: 34px;
+		letter-spacing: 0em;
+		text-align: center;
+
+}
+.call div:nth-child(1){
+	font-family: Gilroy;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 22px;
+	letter-spacing: 0em;
+	text-align: center;
+
+}
+	.input_button{
+		flex-direction: column;
+    align-items: center;
+	}
+	.input_button input:nth-child(1){
+        margin-right: 0px;
+	}
+.input_button input:nth-child(3){
+        margin-right: 0px;
+	}
+
+.check_in_form{
+	padding: 0px 10px;
+	text-align: center;
+    margin-top: 30px;
+}
+}
+
+/*@media (min-width:992px)
+
+@media (min-width:1200px)*/
