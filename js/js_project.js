@@ -80,7 +80,7 @@ $(document).ready(function function_name(argument) {
   // body...
  $('.mobile_nav').click(function() {
         $('.mobile_nav').toggleClass('active_mobile_nav');
-        $('.main_nav').toggleClass('active_main_nav');
+        //$('.main_nav').toggleClass('active_main_nav');
         $('.mobile_menu_header').toggleClass('active_mobile_menu_header'); 
         $('.mobile_logo').toggleClass('active_mobile_logo');
         $('.mobole_li_nav').toggleClass('active_mobole_li_nav');
